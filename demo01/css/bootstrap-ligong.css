@@ -1,0 +1,205 @@
+body{
+	font-family: 'Microsoft YaHei',sans-serif;
+}
+.html5-icon{
+	width: 40px;
+    height: 40px;
+    background-color: #5bc0de;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+/* 导航栏 */
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 10px 0 #ccc;
+}
+.navbar-default .navbar-brand{
+	font-size: 30px;
+	color: #5bc0de;
+    font-weight: bold;
+    height: 68px;
+    line-height: 34px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #666;
+    font-weight: bold;
+    font-size: 16px;
+    height: 68px;
+    line-height: 34px;
+}
+.navbar-default .navbar-toggle {
+    margin-top: 17px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #5bc0de;
+}
+.navbar-default .navbar-toggle:hover {
+	background-color: rgb(91, 192, 222);
+}
+.navbar-default .navbar-toggle:hover .icon-bar{
+	background-color: #fff;
+}
+
+/* home */
+#home{
+	width: 100%;
+	background: url('../images/home-bg.jpg') no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	margin-top: 68px;
+}
+.lvjing{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 90px 0;
+}
+#home h1{
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 25px;
+
+}
+#home p{
+	font-weight: 400;
+    line-height: 35px;
+}
+#home img{
+	margin-top: 30px;
+	display: inline-block;
+}
+
+/* bbs */
+#bbs{
+	padding: 80px 0;
+	text-align: center;
+}
+#bbs .col-md-4{
+	padding: 15px; 
+}
+#bbs .col-md-4:hover{
+	background-color: #f1f1f1;
+	box-shadow: 1px 1px 5px #ccc;
+}
+#bbs a{
+	color: #000;
+	text-decoration: none;
+}
+#bbs img{
+	margin: 0 auto;
+}
+#bbs h3{
+	font-weight: bold;
+}
+
+/* html5 + bootstrap*/
+#html5{
+	background: #f8f8f8;
+}
+#html5,#bootstrap{
+	padding: 80px 0;
+}
+#html5 h2,#bootstrap h2{
+	font-weight: bold;
+}
+#html5 p,#bootstrap p{
+	line-height: 25px;
+}
+
+/* course */
+#course{
+	padding: 80px 0;
+	background: #f8f8f8;
+	text-align: center;
+}
+#course h2{
+	font-weight: bold;
+	padding-bottom: 60px;
+}
+#course .col-md-3{
+	margin-bottom: 20px;
+}
+.course{
+	background-color: #fff;
+}
+#course .btn{
+	width: 135px;
+	height: 38px;
+	line-height: 25px;
+	background-color: transparent;
+	color: #5bc0de;
+	border: 1px solid #5bc0de;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	transition: all 0.3s;
+}
+#course .btn:hover{
+	background-color: #5bc0de;
+	color: #fff;
+}
+
+/* app */
+#app{
+	padding: 80px 0;
+}
+#app h2{
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+#app .btn{
+	border: 1px solid #337ab7;
+	padding: 6px 30px;
+	transition: all 0.3s;
+	margin-top: 10px;
+}
+
+/* contact */
+#contact{
+	background: url('../images/contact-bg.jpg') no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+#contact h2{
+	font-weight: bold;
+	margin-bottom: 25px;
+	margin-top: 0;
+}
+#contact span{
+	margin-right: 15px;
+}
+#contact p{
+	line-height: 30px;
+}
+#contact .form-control{
+	height: 45px;
+	margin-bottom: 20px;
+}
+#contact textarea.form-control{
+	height: auto;
+}
+#contact input[type="submit"]{
+	color: #fff;
+	background-color: #5bc0de;
+	border: 1px solid #5bc0de;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	transition: all 0.3s;
+}
+#contact input[type="submit"]:hover{
+	background-color: #1f9abf;
+	border: 1px solid #1f9abf;
+}
+
+/* footer */
+footer{
+	text-align: center;
+	font-weight: 400;
+	padding: 20px 0;
+}
